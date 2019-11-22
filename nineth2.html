@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	  body {
+		font-size:10pt;
+		margin:0;
+		padding:0;
+		font-family:'맑은고딕','돋움','돋움체';
+		}
+	  #wrapper {
+		width:900px;
+		margin:0 auto; /* 가운데 정렬로 레이아웃 잡기 위해서 만들어주는 틀 */
+		 /* border:1px solid black; */
+		}
+	  header {
+		width:900px; /* 100% 써도됨 */
+		height:120px;
+		background:#FDF5E6;
+		}
+	  /*
+	  #header {
+		width:900px;
+		height:120px;
+		background:#eee;
+		}
+	  */
+	  #logo {
+		width:150px;
+		height:60px;
+		float:left;
+		margin-top:60px;
+		margin-left:15px;
+		}
+	  #navi {
+		width:550px;
+		height:35px;
+		float:right;
+		text-align:right;
+		margin-top:78px;
+		}
+	  ul {
+		list-style:none;
+		}
+	  ul li {
+		display:inline;
+		margin:18px;
+		}
+	  a:link {
+		text-decoration:none;
+		color:#666;
+		}
+	  a:hover {
+		text-decoration:underline;
+		color:#272525;
+		font-weight:bold; /* bold 사용자가 좋아하지 않음 커지면서 순간적으로 옆으로 밀려보이기 때문 */
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>float개념 및 layout 연습</title>
+ </head>
+ <body>
+	<div id="wrapper">
+		<header>
+		<!-- <div id="header"> <!-- <header> : 시맨틱태그 사용해도됨 (HTML5에서 생김) -->
+			<div id="logo"><img src="field-533542-2.jpg" alt="로고이미지" width="150" height="45"></div>
+			<div id="navi">
+			<ul>
+				<li><a href="#">potoshop</a></li>
+				<li><a href="#">illustrator</a></li>
+				<li><a href="#">HTML5+CSS3</a></li>
+				<li><a href="#">javascript</a></li>
+				<li><a href="#">jQuery</a></li>
+			</ul>
+			</div>
+		<!-- </div> -->
+		</header>
+	</div>
+ </body>
+</html>
