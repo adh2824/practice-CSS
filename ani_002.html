@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	.box {
+		margin-top:50px;
+		margin-left:50px
+		padding:20px;
+		height:60px;
+		animation-name:bbkjh;
+		animation-duration:2s;
+		animation-direction:normal;
+		animation-iteration-count:5;
+		}
+	@keyframes bbkjh {
+
+		from {
+			width: 250px;
+			background: red;
+			opacity: 0.5;
+			transform: scale(0.5) rotate(15deg);
+			}
+
+		to {
+			width: 500px;
+			background: yellow;
+			opacity: 1;
+			transform: scale(1) rotate(0deg);
+			}
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>애니메이션 재생횟수</title>
+ </head>
+ <body>
+	<div class="box">
+		<h3>애니메이션 재생횟수</h3>
+	</div>
+ </body>
+</html>
