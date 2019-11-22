@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	* {
+		margin:0;
+		padding:0;
+		}
+	div {
+		width:300px;
+		height:300px;
+		margin:20px;
+		display:inline-block /* 인라인으로 표시하되 블럭의 속성을 가지게함 */
+		}
+	#bg {
+		background:url(field-533542-1.jpg) no-repeat;
+		background-size:cover;
+		}
+	.round {
+		border:2px solid red;
+		border-radius:150px 40px 100px 70px; /* 50% 20% 30% 40%; 좌측상단 모서리부터 시계방향 */
+		/* border-radius:20px; /* 정확하게 반 접으면 예)300px 반인 150px 또는 50% 원형됨 */
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>border-radius 속성 사용하기</title>
+ </head>
+ <body>
+	<div class="round"></div>
+	<div class="round" id="bg"></div>
+ </body>
+</html>
