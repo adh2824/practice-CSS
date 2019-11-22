@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>form_tag 실습001</title>
+ </head>
+ <body>
+	<!--
+	<form method="post" action="">
+		아이디:<input type="text" size="20">
+	-->
+	<!--
+	<form method="post" action="">
+		<h3>당신의 성별을 입력해 주세요...</h3>
+		<input type="radio" name="xex" value="male">남성
+		<input type="radio" name="xex" value="female">여성<br>
+	-->
+	<!--
+	<form method="post" action="">
+		<h3>당신의 취미를 2가지만 선택해 주세요...</h3>
+		<input type="checkbox" name="hobby01" value="movie">영화감상
+		<input type="checkbox" name="hobby02" value="drive">드라이브
+		<input type="checkbox" name="hobby03" value="snowboard">스노우보드
+		<input type="checkbox" name="hobby04" value="tv">TV보기
+		<input type="checkbox" name="hobby05" value="book">독서
+	-->
+	<form method="post" action="">
+		아이디:<input type="text" size="10"><br>
+		패스워드:<input type="password" size="10" maxlength="12">
+		<hr>
+		<!--
+		<input type="email" placeholder="abc@abc.com" required><br>
+		<input type="submit"><br>
+		<input type="url" placeholder="http://wwww.apple.com" required><br>
+		<input type="submit"><br>
+		-->
+		<input type="date"><br>
+		<input type="datetime"><br>
+		<input type="month"><br>
+		<input type="week"><br>
+		<input type="number" min="0" max="100" step="10"><br>
+		<input type="range" min="1" max="10" value="1"><br>
+		<input type="search" min="1"><br> <!-- ??다 못따라감... -->
+ </body>
+</html>
