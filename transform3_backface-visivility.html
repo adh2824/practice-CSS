@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	div {
+		width:250px;
+		height:250px;
+		}
+	h3 {
+		font-size:22px;
+		}
+	.container {
+		border:1px solid red;
+		perspective:300px;
+		margin-top:80px;
+		margin-left:80px;
+		float:left;
+		}
+	#ba01 {
+		/* prefix 헤줘야함 */
+		backface-visibility:hidden;
+		}
+	#ba02 {
+		/* prefix 헤줘야함 */
+		backface-visibility:show;
+		}
+	.box {
+		background:red;
+		/* prefix 헤줘야함 */
+		transform:rotateY(135deg);
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>backface-visivility</title>
+ </head>
+ <body>
+	<div class="container">
+		<div class="box" id="ba01">
+			<h3>SHOW</h3>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box" id="ba02">
+			<h3>SHOW</h3>
+		</div>
+	</div>
+ </body>
+</html>

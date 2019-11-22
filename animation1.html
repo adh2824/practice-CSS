@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	.box {
+		width:50px;
+		height:50px;
+		margin:50px;
+		/* animation:rotate 5s infinite, background 3s infinite alternate; */
+		animation-name:rotate;
+		animation-duration:2s;
+		animation-iteration-count:infinite;
+		animation-name:rotate;
+		animation-duration:2s;
+		animation-iteration-count:infinite;
+		}
+	/* 애니메이션 부분(keyframe작성)에서도 prefix 해줘야함 */
+	@keyframes rotate {
+		from {
+			transform:perspevtive(100px) rotateX(0deg) rotateY(0deg);
+			}
+		50% {
+			transform:perspevtive(100px) rotateX(90deg) rotateY(90deg);
+			}
+		to {
+			transform:perspevtive(100px) rotateX(180deg) rotateY(180deg);
+			}
+	@keyframes bacground {
+		from {
+			background:#ff0000;
+			}
+		50% {
+			background:#00ff00;
+			}
+		to {
+			background:#0000ff;
+			}
+  </style>
+  <meta charset="UTF-8">
+  <title>애니메이션 실습1</title>
+ </head>
+ <body>
+	<div class="box"></div>
+ </body>
+</html>

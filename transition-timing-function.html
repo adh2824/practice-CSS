@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+  /* 제대로 안됨...*/
+	#container {
+		float:left;
+		width:100px;
+		height:50px;
+		margin:10px 20px;
+		color:#fff;
+		background:red;
+		}
+	#container:hover {
+		height:600px;
+		}
+	#container .ease {
+		/* prefix 해줘야함 */
+		transition:3s ease;
+		}
+	#container .linear {
+		/* prefix 해줘야함 */
+		transition:3s linear;
+		}
+	#container .ease-in {
+		/* prefix 해줘야함 */
+		transition:3s ease-in;
+		}
+	#container .ease-out {
+		/* prefix 해줘야함 */
+		transition:3s ease-out;
+		}
+	#container .ease-in-out {
+		/* prefix 해줘야함 */
+		transition:3s ease-in-out;
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>transition-timing-function(속도곡선)</title>
+ </head>
+ <body>
+	<div id="container">
+		<div class="ease">ease</div>
+		<div class="linear">linear</div>
+		<div class="ease-in">ease-in</div>
+		<div class="ease-out">ease-out</div>
+		<div class="ease-in-out">ease-in-out</div>
+	</div>
+ </body>
+</html>
