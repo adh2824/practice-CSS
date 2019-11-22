@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+	body {
+		font-family:"맑은 고딕", "돋움", "돋움체", "굴리", "굴림체";
+		font-size:9pt;
+		line-height:150%;
+		background:#d6d6d6;
+		background-image:url(images/topbg.jpg);
+		background-repeat:repeat-x;
+		margin:0;
+		}
+	#wrap {
+		margin:0 auto;
+		width:900px;
+		}
+	#page_header {
+		width:900px;
+		height:102px;
+		}
+	#toplogo {
+		width:233px;
+		height:35px;
+		float:left;
+		margin-top:37px;
+		}
+	#topnav {
+		width:500px;
+		height:22px;
+		float:right;
+		text-align:right;
+		margin-top:50px;
+		}
+	#topnav ul {
+		list-style:none;
+		}
+	#topnav ul li {
+		display:inline;
+		font-size:11pt;
+		margin-left:15px; /* 마진값 한꺼번에 주면 오른쪽으로 붙어있지 않음 -> 마진이 위,아래,오른쪽,왼쪽 다 생기기 때문 */
+		}
+	#topnav ul li a {
+		color:#000;
+		text-decoration:none;
+		}
+	#topnav ul li a:hover {
+		color:#000;
+		text-decoration:underline;
+		}
+	#page_center {
+		width:900px; /* heigh 잡을 필요 없음 -> 이미지 변경되면 알아서 늘어남 */
+		margin-top:10px;
+		}
+	.maining {
+		width:900px;
+		height:414px;
+		float:left; /* float 줘도 되고 안줘도됨 */
+		}
+	.bannerset {
+		width:900px;
+		height:127px;
+		margin-top:10px;
+		}
+	.bannerset a {
+		color:#000;
+		text-decoration:none;
+		}
+	.bannerset a:hover {
+		color:#000;
+		text-decoration:none;
+		}
+	.banner1 {
+		width:160px;
+		height:100px;
+		background-image:url(images/ban1.jpg);
+		background-repeat:no-repeat;
+		float:left;
+		padding-left:140px;
+		padding-top:27px;
+		}
+	.banner2 {
+		width:160px;
+		height:100px;
+		background-image:url(images/ban2.jpg);
+		background-repeat:no-repeat;
+		float:left;
+		padding-left:140px;
+		padding-top:27px;
+		}
+	.banner3 {
+		width:160px;
+		height:100px;
+		background-image:url(images/ban3.jpg);
+		background-repeat:no-repeat;
+		float:left;
+		padding-left:140px;
+		padding-top:27px;
+		}
+	#page_footer {
+		width:900px;
+		height:60px;
+		background:#000;
+		color:#fff;
+		float:left;
+		clear:both;
+		margin-top:10px; 
+		text-align:center;
+		/* vertical-align:center; 작동 안함  padding-top 으로 잡아야함 */
+		padding-top:20px;
+		}
+</style>
+</head>
+
+<body>
+<div id="wrap">
+  <div id="page_header">
+    <div id="toplogo"><img src="images/logo.jpg" width="233" height="35" alt="GUMZZI" /></div>
+    <div id="topnav">
+      <ul>
+        <li><a href="#">SKINCARE</a></li>
+        <li><a href="#">MAKEUP</a></li>
+        <li><a href="#">NAILCARE</a></li>
+        <li><a href="#">BODYCARE</a></li>
+        <li><a href="#">PERFUME</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="page_center">
+    <div class="mainimg"><img src="images/mainimg.jpg" width="900" height="414" alt="신상품" /></div>
+    <div class="bannerset">
+      <div class="banner1"><a href="#">[G-cosmetic]<br>
+        NEW 골드업 립스틱 <br>
+        7가지 컬러에 폭~빠져봐요 <br>
+        5%할인</a></div>
+      <div class="banner2"><a href="#">[G-cosmetic]<br>
+        골드업 크림 아이라이너<br>
+        바이올렛/골드 워터프루프<br>
+        립앤아이리무버 5%할인</a></div>
+      <div class="banner3"><a href="#">[G-cosmetic]<br>
+        골드업 매니큐어 시즌7<br>
+        #73 피치블루밍(13g)<br>
+        5종셋트 10%할인</a></div>
+    </div>
+  </div>
+  <div id="page_footer">사업장 소재지 : 서울시 동대문구 용두동 119-15번지 여의주빌딩. 사업자명 : (주)금상첨화. 대표자 : 홍길동 <br>
+  사업자등록번호 : 000-00-00000. 통신판매신고번호 : 서울 - 000호. 고객센터 : 1544-3896</div>
+</div>
+</body>
+</html>
