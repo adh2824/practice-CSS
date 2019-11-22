@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	.trans01 {
+		width:100px;
+		height:100px;
+		background:red;
+		border:1px solid black;
+		color:#fff;
+		font-size:16px;
+		/* prefix 해줘야함 */
+		transition-property:width,height,background-color,border,color,font-size;
+		transition-duration:1s,0.5s,3s,2s,1s,1s;
+		}
+	.trans01:hover {
+		width:200px;
+		height:150px;
+		background:blue;
+		border:10px dashed orange;
+		color:#000;
+		font-size:48px;
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>transition001</title>
+ </head>
+ <body>
+	<div class="trans01">♥</div>
+ </body>
+</html>
