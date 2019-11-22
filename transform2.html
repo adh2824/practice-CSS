@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	div {
+		width:200px;
+		height:200px;
+		}
+	.container {
+		border:1px solid red;
+		perspective:300px;
+		margin-top:60px;
+		margin-left:60px;
+		float:left;
+		}
+	.box001 {
+		background:#82cbd8;
+		transform-origin:left top;
+		/* prefix 해줘야함 */
+		transform:rotateY(45deg);
+		}
+	.box002 {
+		background:#0d6097;
+		transform-origin:left top;
+		/* prefix 해줘야함 */
+		transform:rotateX(45deg);
+		}
+	#transtyle001 {
+		/* prefix 해줘야함 */
+		-webkit-transform-style:flat;
+		transform-style:flat;
+		}
+	#transtyle002 {
+		/* prefix 해줘야함 */
+		-webkit-transform-style:preserve-3d;
+		transform-style:preserve-3d;
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>transform 속성 알아보기 추가</title>
+ </head>
+ <body>
+	<div id="container">
+		<div class="box001" id="transtyle001">
+			<div class="box002"></div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="box001" id="transtyle002">
+			<div class="box002"></div>
+		</div>
+	</div>
+ </body>
+</html>
