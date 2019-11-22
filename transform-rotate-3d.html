@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style>
+	.rot3d {
+		width:250px;
+		height:250px;
+		border:1px solid black;
+		float:left;
+		margin:50px;
+		perspective:200px;
+		}
+	.rotatex:hover {
+		-webkit-transform:rotatex(45deg);
+		-o-transform:rotatex(45deg);
+		-moz-transform:rotatex(45deg);
+		-ms-transform:rotatex(45deg);
+		transform:rotatex(45deg);
+		}
+	.rotatey:hover {
+		-webkit-transform:rotatey(-45deg);
+		-o-transform:rotatey(-45deg);
+		-moz-transform:rotatey(-45deg);
+		-ms-transform:rotatey(-45deg);
+		transform:rotatey(-45deg);
+		}
+	.rotatez:hover {
+		-webkit-transform:rotatez(45deg);
+		-o-transform:rotatez(45deg);
+		-moz-transform:rotatez(45deg);
+		-ms-transform:rotatez(45deg);
+		transform:rotatez(45deg);
+		}
+	.rotatexyz:hover {
+		-webkit-transform:rotate3D(1.2,1.5,2.0,45deg); /* 벡터 개념을 가져와서 수치값 입력 */
+		-o-transform:rotate3D(1.2,1.5,2.0,45deg);
+		-moz-transform:rotate3D(1.2,1.5,2.0,45deg);
+		-ms-transform:rotate3D(1.2,1.5,2.0,45deg);
+		transform:rotate3D(1.2,1.5,2.0,45deg);
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+	<div class="rot3d">
+		<img src="field-533542-1.jpg" title="하늘" alt="이미지로딩중" class="rotatex" width="250" height="250">
+	</div>
+	<div class="rot3d">
+		<img src="field-533542-1.jpg" title="하늘" alt="이미지로딩중" class="rotatey" width="250" height="250">
+	</div>
+	<div class="rot3d">
+		<img src="field-533542-1.jpg" title="하늘" alt="이미지로딩중" class="rotatez" width="250" height="250">
+	</div>
+	<div class="rot3d">
+		<img src="field-533542-1.jpg" title="하늘" alt="이미지로딩중" class="rotatexyz" width="250" height="250">
+	</div>
+ </body>
+</html>
