@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <style type="text/css">
+   /*
+   section ul {
+		border:1px solid red;
+		margin-bottom:10px;
+		}
+
+	section > ul {
+		border:1px solid red;
+		margin-bottom:10px;
+		}
+	*/
+	section + ul {
+		border:1px solid red;
+		margin-bottom:10px;
+		}
+  </style>
+  <meta charset="UTF-8">
+  <title>하위 선택자</title>
+ </head>
+ <body>
+	<section>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</li>
+	</ul>
+	</section>
+ </body>
+</html>
